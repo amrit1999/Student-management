@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/amrit/Desktop/Student-Management-System-master/app/controllers/StudentsController.java:79:1: unreported exception com.fasterxml.jackson.core.JsonProcessingException; must be caught or declared to be thrown[0m
+[0m[[0m[31merror[0m] [0m[0mnew ObjectMapper().writeValueAsString(oldstudent)[0m
+[0m[[0m[31merror[0m] [0m[0m/home/amrit/Desktop/Student-Management-System-master/app/controllers/StudentsController.java:80:1: unreported exception java.io.IOException; must be caught or declared to be thrown[0m
+[0m[[0m[31merror[0m] [0m[0mpublish(json,"student_update_queue","student_direct","student.update")[0m

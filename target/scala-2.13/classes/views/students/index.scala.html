@@ -1,0 +1,11 @@
+@(students :  List[Student])
+
+<h1>All Students</h1>
+@for(student <- students){
+    <a href="@routes.StudentsController.show(student.id)">Name: @student.name</a>
+    <p> Age: @student.age </p>
+    <p> Branch: @student.branch </p>
+    <p> Marks: @student.marks </p>
+}
+<a href="@routes.StudentsController.create()">Create</a>
+

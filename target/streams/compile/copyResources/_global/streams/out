@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amrit/Desktop/Student-Management-System-master/conf/application.conf,/home/amrit/Desktop/Student-Management-System-master/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amrit/Desktop/Student-Management-System-master/conf/logback.xml,/home/amrit/Desktop/Student-Management-System-master/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amrit/Desktop/Student-Management-System-master/conf/routes,/home/amrit/Desktop/Student-Management-System-master/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amrit/Desktop/Student-Management-System-master/conf/evolutions/default/1.sql,/home/amrit/Desktop/Student-Management-System-master/target/scala-2.13/classes/evolutions/default/1.sql)[0m

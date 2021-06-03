@@ -1,0 +1,30 @@
+@import java.util
+@(studentForm : Form[Student],student: Student)(implicit request: Http.Request, messages: play.i18n.Messages)
+@import scala._
+@import helper._
+
+
+<html>
+<head>
+    <title>Edit Student</title>
+</head>
+
+<body>
+<h1>Edit Student</h1>
+
+@helper.form(action = helper.CSRF(routes.StudentsController.update(student.id))){
+
+<p> id: @student.id </p>
+@helper.inputText(studentForm("name"))
+@helper.inputText(studentForm("age"))
+@helper.inputText(studentForm("marks"))
+@helper.inputText(studentForm("branch"))
+
+<button class="btn btn-success" type="submit"> Add Student</button>
+}
+</body>
+</html>
+
+
+
+
